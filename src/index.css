@@ -2,12 +2,60 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+    sans-serif;}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1{
+text-align: center;
+}
+
+.login-background{
+  height: 100vh ;
+  background-color: blueviolet;
+}
+
+.login-with-google{
+  width: 90%;
+  background: skyblue;
+  margin: 10vh 3vw;
+}
+
+.login-card{
+  width: 50vw;
+  height: 45vh; min-height: 200px;
+  top: 20vh;
+  background-color: whitesmoke;
+  position: fixed;
+  left: 25vw;
+}
+
+.delete{
+  color: red;
+ display: inline;
+ position: fixed;
+ right: 5%;
+}
+.submit{
+  left: 0;
+}
+.form{
+  text-align: center;
+  margin: 2rem;
+  width:100%
+}
+.cards{
+  height: 2.6rem;
+  width:95%;
+  text-align: center;
+  margin: 1rem;
+  border:black 5px solid;
+}
+.center{
+  margin: 1.5rem;
+  width: 100;
+  text-align: center;
 }
