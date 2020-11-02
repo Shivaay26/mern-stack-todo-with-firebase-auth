@@ -26,7 +26,8 @@ const Homepage = ({logout,user}) => {
             : data.map(todo=>{return <Cards todo={todo} deletefunction={deletefunction}/>})}
 
             <Forms setdata={setdata} data={data} user={user}/>
-          <div className="center">  <button onClick={logout}>logout</button> </div>
+          <div className="center"> 
+           <button onClick={logout} className="logout">logout</button> </div>
         </div>
     )
 }

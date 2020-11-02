@@ -3,11 +3,11 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;}
-
+/* 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 h1{
 text-align: center;
@@ -34,21 +34,24 @@ text-align: center;
 }
 
 .delete{
-  color: red;
- display: inline;
- position: fixed;
+  font-size: 20px; font-weight: 900;
+  color: red;    background-color:black;
+ display: inline;  position: fixed;
  right: 5%;
 }
-.submit{
-  left: 0;
-}
+
 .form{
   text-align: center;
   margin: 2rem;
   width:100%
 }
+
+input{
+  margin: 0 5vw;
+  width: 50vw;
+}
 .cards{
-  height: 2.6rem;
+  padding: 1rem;
   width:95%;
   text-align: center;
   margin: 1rem;
