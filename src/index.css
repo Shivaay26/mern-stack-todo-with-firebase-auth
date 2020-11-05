@@ -3,11 +3,6 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;}
-/* 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
 
 h1{
 text-align: center;
@@ -15,7 +10,7 @@ text-align: center;
 
 .login-background{
   height: 100vh ;
-  background-color: blueviolet;
+  background-color:rgb(46, 45, 45);
 }
 
 .login-with-google{
